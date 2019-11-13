@@ -1,0 +1,28 @@
+form {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: grey;
+    width: 300px;
+    text-align:center;
+    transition: opacity .15s;
+}
+
+form input {
+    padding-left: 5px;
+    width: 45%;
+}
+
+#update-user {
+    font-size: 18px;
+    font-style: italic;
+    background:inherit;
+    border:none;
+    color: inherit;
+}
+
+#update-user::placeholder {
+    color:inherit;
+    opacity: 1;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>SQL Practice</title>
+</head>
+<body>
+
+    <nav>
+        <button id = "trigger-account">Account</button>
+        <a href="/store">Store</a>
+    </nav>
+    
+    
+
+    <div id = "content">
+        <form id = "account-form">
+            <input type="text" name="username" placeholder = "Username">
+            <input type="password" name="password" placeholder = "Password">
+            <button id = "signup">Sign Up</button>
+            <button id = "login">Login</button>
+        </form>
+
+        <div id = "account-info">
+            <button id = "close-button">X</button>
+            <p id = "user">Nobody's logged in.</p>
+
+            <div id = "account">
+                <p>Is there anything you'd like to change?</p>
+                <input id = "update-user" type="text" name="username" placeholder = "Username">
+                <button id = "delete">Delete My Whole Account</button>
+            </div>
+        </div>
+
+        {{{body}}}
+        
+    </div>
+
+    
+    <script src = "/js/logic.js"></script>
+</body>
+</html>

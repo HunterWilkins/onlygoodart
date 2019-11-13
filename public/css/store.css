@@ -1,0 +1,14 @@
+#new-product-form {
+    background: orange;
+}
+
+#new-product {
+    text-align:center;
+    width: 400px;
+}
+
+#store-items {
+    height: 500px;
+    width: 400px;
+    background: green;
+}
